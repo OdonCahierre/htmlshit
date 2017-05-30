@@ -1,0 +1,49 @@
+<!DOCTYPES html>
+<html>
+<title>BuffetCalculator</title>
+<header> <h1>Calculate your meal today!</h1> </header>
+<body>
+<p>BuffetCalculator is a tool that allows you to calculate if you have eaten your money's worth at a buffet!</p>
+
+<style>
+#calc{width:300px;height:250px;}
+</style>
+
+<form>
+Meal Cost: $
+<input type="number" name="Cost" value="">
+<li>
+Strips of Bacon:
+<input type="number" name="Bacon" value="".>
+</li>
+<li>
+Pieces of Toast:
+<input type="number" name="Toast" value="".>
+</li>
+<li>
+Eggs:
+<input type="number" name="Eggs" value="" >
+</li>
+<li>
+Mugs of Coffee:
+<input type="number" name="Eggs" value="" >
+</li>
+<li>
+Sausages:
+<input type="number" name="Sausages" value="" >
+</li>
+<li>
+Waffles:
+<input type="number" name="Waffles" value="">
+</li>
+<li>
+Pancakes: Make sure to specify size for this and waffles!!!!!
+<input type="number" name="Pancakes" value="">
+</li>
+<li>
+<input type="Submit" id="calc"  value = "Submit" OnClick=""calc.display.value+='0'"">
+</li>
+</form>
+
+</body>
+</html>
